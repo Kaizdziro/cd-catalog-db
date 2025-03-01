@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   root: "./",
   build: {
+    publicDir: "public",
     outDir: "dist",
     rollupOptions: {
       input: "/src/main.jsx",
