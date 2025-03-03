@@ -14,7 +14,7 @@ export default function Favorites() {
         {favorites.length ? (
           favorites.map((movie) => <MovieCard key={movie.id} movie={movie} />)
         ) : (
-          <p>Nothing in favorites</p>
+          <div className="w-75 h-160">Nothing in favorites</div>
         )}
       </div>
     </div>
