@@ -14,7 +14,7 @@ export default function MovieList() {
 
   if (isLoading) return <p className="bg-indigo-100 font-google">Loading...</p>;
   return (
-    <div className="bg-gray-50 font-google">
+    <div className="bg-gray-50 font-google h-fit">
       <h2 className="text-center py-6 font-bold text-3xl text-gray-800">
         TOP MOVIES
       </h2>

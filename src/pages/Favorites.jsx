@@ -6,7 +6,7 @@ export default function Favorites() {
   const favorites = useSelector((state) => state.favorites.favorites);
 
   return (
-    <div className="bg-gray-50 font-google h-dvh">
+    <div className="bg-gray-50 font-google h-fit">
       <h2 className="text-center py-6 font-bold text-3xl text-gray-800">
         FAVORITES
       </h2>
